@@ -3,7 +3,45 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-/* Logo */
+img {
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin: o;
+}
+.container {
+  max-width: 1158;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/* Logo, Navigation */
+.header-border {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 156px;
+  padding-right: 156px;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+}
+.header-navigation-list {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+}
 .logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -16,30 +54,27 @@ body {
 .logo-studio {
   color: #2e2f42;
 }
-.footer-logo-studio {
-  color: #f4f4fd;
+.logo-header-web-studio {
+  margin-right: 76px;
 }
-/* Navigation */
-.list-navigation {
+.header-navigation-item {
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.list-navigation:hover {
+.header-navigation-item:hover {
   color: #404bbf;
 }
-.list-navigation:focus {
+.header-navigation-item:focus {
   color: #404bbf;
 }
 /* Address */
-.address {
-  font-style: normal;
-}
 .address-information {
   line-height: 1.5;
   color: #434455;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 .address-information:hover {
   color: #404bbf;
@@ -47,8 +82,9 @@ body {
 .address-information:focus {
   color: #404bbf;
 }
-ul {
-  list-style-type: none;
+.address-list {
+  display: flex;
+  gap: 40px;
 }
 /* Section 1 Effective Solutions and button */
 .section-effective-solutions-button {
@@ -76,6 +112,18 @@ ul {
   background-color: #404bbf;
 }
 /* Section 2 Our Strategy */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .our-strategy-title {
   font-size: 36px;
   line-height: 1.1;
@@ -92,63 +140,4 @@ ul {
 .our-strategy-type-description {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
-}
-/* Section 3 Our Team */
-.section-our-team {
-  background-color: #f4f4fd;
-}
-.our-team-list {
-  background-color: #ffffff;
-}
-.our-team-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-  letter-spacing: 0.02;
-}
-.our-team-name {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.our-team-profession {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-/* Section 4 Our Portfolio */
-.our-portfolio-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-.our-portfolio-type {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.our-portfolio-type-information {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-/* Footer */
-.footer-information {
-  color: #f4f4fd;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.footer {
-  background-color: #2e2f42;
 }
