@@ -21,21 +21,19 @@
   </head>
   <body>
     <header class="header-border">
-      <!-- Logo, Navigation -->
-      <div class="header-container">
-        <nav class="nav-header">
-          <a class="logo" href="./index.html"
-            >Web<span class="logo-studio">Studio</span></a
-          >
+      <!-- Header -->
+      <div class="header-container container">
+        <nav class="header-navigation">
+          <a class="logo" href="./index.html">Web<span>Studio</span></a>
           <ul class="header-navigation-list">
-            <li>
-              <a class="header-navigation-item" href="./index.html">Studio</a>
+            <li class="header-navigation-item">
+              <a class="header-navigation-link" href="./index.html">Studio</a>
             </li>
-            <li>
-              <a class="header-navigation-item" href="">Portfolio</a>
+            <li class="header-navigation-item">
+              <a class="header-navigation-link" href="">Portfolio</a>
             </li>
-            <li>
-              <a class="header-navigation-item" href="">Contacts</a>
+            <li class="header-navigation-item">
+              <a class="header-navigation-link" href="">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -43,12 +41,12 @@
         <address class="address">
           <ul class="address-list">
             <li>
-              <a class="address-information" href="mailto:info@devstudio.com"
+              <a class="address-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a class="address-information" href="tel:+110001111111"
+              <a class="address-link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -57,14 +55,14 @@
       </div>
     </header>
     <main>
-      <!-- Section 1 Effective Solutions and button -->
-      <section class="section-effective-solutions-button">
+      <!-- Hero -->
+      <section class="hero">
         <div class="section container">
-          <h1 class="main-title">Effective Solutions for Your Business</h1>
-          <button class="main-button" type="button">Order Service</button>
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <button class="hero-button" type="button">Order Service</button>
         </div>
       </section>
-      <!-- Section 2 Our Strategy -->
+      <!-- Section 1 Our Strategy -->
       <section class="our-strategy">
         <div class="section container">
           <h2 class="visually-hidden">Our Strategy</h2>
@@ -100,7 +98,7 @@
           </ul>
         </div>
       </section>
-      <!-- Section 3 Our Team -->
+      <!-- Section 2 Our Team -->
       <section class="section-our-team">
         <div class="section container">
           <h2 class="our-team-title">Our Team</h2>
@@ -111,28 +109,36 @@
                 alt="Mark Guerrero"
                 width="264"
               />
-              <h3 class="our-team-name">Mark Guerrero</h3>
-              <p class="our-team-profession">Product Designer</p>
+              <div class="our-team-card">
+                <h3 class="our-team-name">Mark Guerrero</h3>
+                <p class="our-team-profession">Product Designer</p>
+              </div>
             </li>
             <li class="our-team-item">
               <img src="./images/ford.jpg" alt="Tom Ford" width="264" />
-              <h3 class="our-team-name">Tom Ford</h3>
-              <p class="our-team-profession">Frontend Developer</p>
+              <div class="our-team-card">
+                <h3 class="our-team-name">Tom Ford</h3>
+                <p class="our-team-profession">Frontend Developer</p>
+              </div>
             </li>
             <li class="our-team-item">
               <img src="./images/garcia.jpg" alt="Camila Garcia" width="264" />
-              <h3 class="our-team-name">Camila Garcia</h3>
-              <p class="our-team-profession">Marketing</p>
+              <div class="our-team-card">
+                <h3 class="our-team-name">Camila Garcia</h3>
+                <p class="our-team-profession">Marketing</p>
+              </div>
             </li>
             <li class="our-team-item">
               <img src="./images/wilson.jpg" alt="Daniel Wilson" width="264" />
-              <h3 class="our-team-name">Daniel Wilson</h3>
-              <p class="our-team-profession">UI Designer</p>
+              <div class="our-team-card">
+                <h3 class="our-team-name">Daniel Wilson</h3>
+                <p class="our-team-profession">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
-      <!-- Section 4 Our Portfolio -->
+      <!-- Section 3 Our Portfolio -->
       <section>
         <div class="section container">
           <h2 class="our-portfolio-title">Our Portfolio Meditation App</h2>
@@ -204,11 +210,7 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <div class="footer-logo-container">
-          <a class="logo" href="./index.html"
-            >Web<span class="footer-logo-studio">Studio</span></a
-          >
-        </div>
+        <a class="logo" href="./index.html">Web<span>Studio</span></a>
         <p class="footer-information">
           Increase the flow of customers and sales for your business with
           digital marketing & growth solutions.
