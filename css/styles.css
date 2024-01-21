@@ -90,9 +90,8 @@ ul {
 }
 
 /* Address */
-.address {
+.address-item {
   padding: 24px 0;
-  display: block;
 }
 
 .address-list {
@@ -171,16 +170,13 @@ ul {
 
 .our-strategy-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
 }
 
 .our-strategy-item {
-  display: flex;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   width: 264px;
-  flex-direction: column;
   align-items: flex-start;
 }
 
@@ -215,11 +211,11 @@ ul {
   align-items: center;
   gap: 32px;
   background-color: #ffffff;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-card {
   padding: 32px 0;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-title {
