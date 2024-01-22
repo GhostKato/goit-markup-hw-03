@@ -41,6 +41,8 @@ h1 h2 h3 p {
 .header-container {
   display: flex;
   justify-content: space-between;
+  aign-items: center;
+  padding: 24px 0;
 }
 
 .header-navigation {
@@ -68,11 +70,7 @@ h1 h2 h3 p {
 .header-navigation-list {
   display: flex;
   gap: 40px;
-  align-items: center;
-}
-
-.header-navigation-item {
-  padding: 24px 0;
+  agn-items: center;
 }
 
 .header-navigation-link {
@@ -115,6 +113,12 @@ h1 h2 h3 p {
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-title {
