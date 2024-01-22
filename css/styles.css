@@ -41,8 +41,8 @@ h1 h2 h3 p {
 .header-container {
   display: flex;
   justify-content: space-between;
-  aign-items: center;
   padding: 24px 0;
+  height: 72px;
 }
 
 .header-navigation {
@@ -70,7 +70,6 @@ h1 h2 h3 p {
 .header-navigation-list {
   display: flex;
   gap: 40px;
-  agn-items: center;
 }
 
 .header-navigation-link {
@@ -88,7 +87,7 @@ h1 h2 h3 p {
 }
 
 /* Address */
-.address-item {
+address-item {
   padding: 24px 0;
 }
 
@@ -129,7 +128,7 @@ h1 h2 h3 p {
   letter-spacing: 0.02em;
   max-width: 496px;
   display: block;
-  margin: 0 auto 48;
+  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -226,6 +225,7 @@ h1 h2 h3 p {
   letter-spacing: 0.02;
   margin-bottom: 72px;
 }
+
 .our-team-name {
   font-size: 20px;
   font-weight: 500;
