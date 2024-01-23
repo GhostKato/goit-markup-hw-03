@@ -45,8 +45,6 @@ p {
 .header-container {
   display: flex;
   justify-content: space-between;
-  padding: 24px 0;
-  height: 72px;
 }
 
 .header-navigation {
@@ -102,6 +100,8 @@ p {
   color: #434455;
   letter-spacing: 0.02em;
   font-style: normal;
+  display: block;
+  padding: 24px 0;
 }
 
 .address-link:hover,
